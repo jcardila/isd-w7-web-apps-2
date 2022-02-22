@@ -14,4 +14,6 @@
 <br>
 <a href="/companies/<%= @company.id %>/edit">Edit company</a>
 <br>
+<%= button_to "Delete this company", @company, method: :delete %>
+<br>
 <a href="/companies">Back to all companies</a>
